@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Contact: PS ILove...</title>
+    <link href="./style.css" type="text/css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" >
+  </head>
+
+  <body>
+
+    <header>
+
+      <img class="bannerpictop" src="pics/contactbanner.png" alt="contactme" width="100%"/>
+      <div class="topnav">
+        <a href="./contact.html"><div class="contactnav">Contact</div></a>
+        <a href="./bakery.html"><div class="bakenav">Bakery</div></a>
+        <a href="./jam.html"><div class="jamnav">Jam & Chutney</div></a>
+        <a href="./index.html"><div class="homenav">Home</div></a>
+      </div>
+    </header>
+
+    <form class="contactme">
+        <label for="fname">First Name</label>
+        <br />
+        <input type="text" id="fname" name="firstname" placeholder="Your first name..." />
+        <br />
+        <label for="lname">Last Name</label>
+        <br />
+        <input type="text" id="lname" name="lastname" placeholder="Your last name..." />
+        <br />
+        <label for="email">Email address/Phone number</label>
+        <br />
+        <input required type="text" id="email" name="email" placeholder="How can I get hold of you?" />
+        <br />
+        <label for="reason">What would you like to ask me?</label>
+        <br />
+        <select id="reason" name="reason">
+          <option value="Order enquiry">Order enquiry</option>
+          <option value="Special request">Special request</option>
+          <option value="Allergy enquiry">Allergy enquiry</option>
+          <option value="Unhappy with product">Unhappy with product</option>
+          <option value="General enquiry">General enquiry</option>
+        </select>
+        <br />
+        <textarea id="enquiry" name="enquiry" placeholder="Please include order number if applicable..." rows="5" cols="20"></textarea>
+        <br />
+        <input type="submit" value="Send">
+    </form>
+
+    <footer>
+      <div class="footnav">
+     <a href="https://www.facebook.com/penny.short.773" class="fa fa-facebook footlink"></a>
+     <a href="https://www.instagram.com/penny.short.773/" class="fa fa-instagram footlink"></a>
+     <p class="email">psilove.info@gmail.com</p>
+    </div>
+  </footer>
+
+  </body>
+  </html>

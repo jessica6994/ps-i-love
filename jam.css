@@ -1,0 +1,123 @@
+/*font*/
+@font-face {
+  font-family: 'Playfair Display SC';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Playfair Display SC Regular'), local('PlayfairDisplaySC-Regular'), url(https://fonts.gstatic.com/s/playfairdisplaysc/v8/ke85OhoaMkR6-hSn7kbHVoFf7ZfgMPr_lbkMEA.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/*background colour*/
+body{
+  margin: 0;
+  background-color: beige;
+}
+/*Nav Bar*/
+.topnav {
+  position:relative;
+  background-color: #9d1717;
+  overflow: hidden;
+  bottom:20px;
+}
+.topnav a {
+  float: right;
+  color: #f5f5dc;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family:'Playfair Display SC';
+  font-size: 17px;
+}
+.topnav a:hover {
+  background-color: #f5f5dc;
+  color: #9d1717;
+}
+
+.titlebanner{
+  position: relative;
+}
+/*offer description*/
+.jamsec {
+  font-family: "Playfair Display SC";
+  text-align: center;
+  color: #9d1717;
+  position: relative;
+  bottom: 10px;
+}
+.hovertext{
+  font-family: "Playfair Display SC";
+  text-align:center;
+  color:#9d1717;
+  margin:0;
+}
+/*jam menu grid*/
+.gridjams{
+  display: grid;
+  grid-gap: 3px;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 200px 120px 200px 120px;
+  width: 100%;
+  height: auto;
+  padding-bottom:20px;
+  padding-top:5px;
+  }
+.label{
+  margin:auto;
+}
+#jamg {
+  width: 200px;
+  height: 200px;
+}
+.Describe {
+  font-family: "Playfair Display SC";
+  text-align: center;
+  font-weight: bold;
+  color: #9d1717;
+  margin:auto;
+  height:auto;
+}
+.mincemeat{
+  text-align: center;
+  position: relative;
+}
+.mincemeattext{
+  position: relative;
+  text-align: center;
+  font-family: "Playfair Display SC";
+  color: #9d1717;
+  font-weight:bold;
+}
+
+/*FOOTER*/
+.footnav {
+  background-color: #9d1717;
+  overflow: hidden;
+  position: relative;
+  bottom:0;
+  width:100%;
+}
+.footlink {
+  color: #f5f5dc;
+  text-align: center;
+  margin: 10px;
+  padding: 14px 16px;
+  text-decoration: none;
+  bottom:0;
+  font-size: 30px;
+}
+.email{
+  float: right;
+  text-align:center;
+  color: #f5f5dc;
+  text-decoration: none;
+  font-family:'Playfair Display SC';
+  font-size: 17px;
+  padding-right:20px;
+}
+.fa-facebook:hover{
+  background-color: #f5f5dc;
+  color: #3B5998;
+}
+.fa-instagram:hover{
+  background-color:#f5f5dc;
+  color:#dd2a7b; /* all insta gradient colors #515bd4, #dd2a7b, #feda77, #f58529*/
+}
